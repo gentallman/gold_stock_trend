@@ -1,9 +1,13 @@
 # FASTag Fraud Detection
 <p align="center">
-![image](https://github.com/gentallman/gold_stock_trend/blob/main/Fastag-logo.png)
+<img src="https://github.com/gentallman/gold_stock_trend/raw/main/Fastag-logo.png" width="60%" height="60%">
 </p>
 
-**Data** - [Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
+<p align="center">
+Data - https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data
+</p>
+
+
 
 ## What is FASTag ?
 
