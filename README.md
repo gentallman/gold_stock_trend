@@ -1,6 +1,6 @@
 # FASTag Fraud Detection
 <p align="center">
-  ![Fastag](https://github.com/gentallman/gold_stock_trend/assets/78334851/f05b3d97-4e8a-4407-ab1e-588cf441c490)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/ca4ca1b1-ec59-410f-982c-eb3640712524)
 </p>
 
 **Data** - [Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
