@@ -46,15 +46,25 @@ To mitigate these risks, it's essential to:
 
 ## Model Development
 <img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/21497614-8256-470b-8154-953cd5a2c474" width="50%" height="50%">
+
+
 <img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/2364f3eb-b040-48d6-99e1-0d261ba3381d" width="50%" height="50%">
+
+
 <img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/54ab4446-02e4-40b7-a43a-9aa10d78db2a" width="50%" height="50%">
 
-## **Best Model**
-**Gradient Boosting**   #
+## Performance Metrices
 
-        
 <img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/6dccfb55-6b65-421a-9dba-78d34c881484" width="50%" height="50%">       
+
+
+## **Best Model**
+**Gradient Boosting**     
+
 <img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/fe2ca4d4-56e5-4f50-b260-bb77cdc85629" width="27%" height="27%"> 
+
+**Feature Importance Graph for gradient boosting classifier**
+
 <img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/303c818e-3ace-4c6b-a703-ff796135df85" width="50%" height="50%">
 
 Transaction amount and amount paid are the primary factors that significantly contribute to predicting fraud in the Gradient Boosting classifier. Another highly effective classifier is the Random Forest model. Additionally, incorporating features such as vehicle speed, dimensions, and the hour of the fraudulent transaction can also influence prediction accuracy.
@@ -103,5 +113,7 @@ Based on the analysis provided, several insights into the factors contributing t
 ## Contact
 
 Author: Smit Rana
+
+
 LinkedIn: [linkedin.com/in/smit98rana/](https://www.linkedin.com/in/smit98rana/)https://www.linkedin.com/in/smit98rana/
 
