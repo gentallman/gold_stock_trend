@@ -3,7 +3,7 @@
   <img src="https://github.com/akhilchibber/Fastag-Fraud-Detection/blob/main/Fastag.jpeg?raw=true" alt="earthml Logo">
 </p>
 
-**Data** - ![Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
+**Data** - [Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
 
 ## What is FASTag ?
 
@@ -37,10 +37,11 @@ To mitigate these risks, it's essential to:
 6. Explanatory Analysis
 
 ## Before Feature Engineering
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/97328acb-45d4-43a9-8702-80b58d09b0cf)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/c18190ab-b9aa-4bf5-b7a8-3bd0d974c31d =250x250)
+
 
 ## After Feature Engineering
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/ad23362a-8c35-410c-b312-d07915b4bff8)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/4ddfea97-406e-470e-a905-0720fd419c17 =250x250)
 
 ## Model Development
 ![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/21497614-8256-470b-8154-953cd5a2c474)
