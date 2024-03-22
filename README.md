@@ -20,113 +20,122 @@ The volatility and complexity of the gold market present challenges for investor
 
 ## About data
 
-Date: Unique identifier for each trading day.
-Close: Closing price of gold on the respective date.
-Volume: Gold trading volume on the corresponding date.
-Open: Opening price of gold on the respective date.
-High: The highest recorded price of gold during the trading day.
-Low: The lowest price recorded for gold in the trading day.
+[Data Source - Nasdaq](https://www.nasdaq.com/market-activity/commodities/gc:cmx)
 
-[Data Source - Nasdaq](https://www.nasdaq.com/market-activity/commodities/gc:cmx_
-
-Regarding fraud associated with FASTag, there have been instances where fraudsters have attempted to exploit vulnerabilities in the system. Some common frauds include:
-
-- **Cloning**: Fraudsters may attempt to clone legitimate FASTags or their unique identification numbers to use them for unauthorized toll payments.
-- **Phishing**: Scammers may use phishing techniques, such as fake emails or messages posing as FASTag service providers, to trick users into revealing their FASTag account details, allowing the fraudsters to access and misuse those accounts.
-- **Tampering**: Criminals may try to tamper with or alter FASTag stickers or devices to manipulate toll charges or steal sensitive information.
-- **Identity Theft**: Identity theft can occur if someone obtains another person's personal information and uses it to apply for a FASTag or gain unauthorized access to an existing account.
-
-To mitigate these risks, it's essential to:
-
-- Purchase FASTags exclusively from authorized sources.
-- Safeguard account details to prevent unauthorized access.
-- Regularly monitor transactions for any discrepancies.
-- Exercise caution and refrain from clicking on unsolicited links or messages.
-- Promptly report any suspicious activity to the relevant provider or authorities.
-    
-**Data** - ![Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
-
-## Project Objectives
-1. Data Exploration
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. Model Development
-5. Real-time Fraud Detection
-6. Explanatory Analysis
-
-## Before Feature Engineering
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/c18190ab-b9aa-4bf5-b7a8-3bd0d974c31d" width="50%" height="50%">
+- Date: Unique identifier for each trading day.
+- Close: Closing price of gold on the respective date.
+- Volume: Gold trading volume on the corresponding date.
+- Open: Opening price of gold on the respective date.
+- High: The highest recorded price of gold during the trading day.
+- Low: The lowest price recorded for gold in the trading day.
 
 
-## After Feature Engineering
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/4ddfea97-406e-470e-a905-0720fd419c17" width="50%" height="50%">
+## Time Series Analysis
 
+### **Long-Term Trend** 
 
-## Model Development
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/21497614-8256-470b-8154-953cd5a2c474" width="50%" height="50%">
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/47579b85-4daa-4ba4-8d68-0a1267969609)
+> - The graph illustrates a consistent upward trend in gold prices over the years, notably since approximately 2019, with prices rising from around $1200 to nearly $2000.
+> - Although fluctuations indicate volatility, the overarching trend remains positive.
+> - Understanding the drivers behind these fluctuations, including economic conditions, investor sentiment, and seasonal factors, offers valuable insights for decision-making.
 
+### **Seasonality and Residuals**   
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/e118cf7e-0073-4af7-b17f-e2b856b649e0)
+> - The graph illustrates a consistent upward trend in gold prices over the years, notably since approximately 2019, with prices rising from around $1200 to nearly $2000.
+> - Although fluctuations indicate volatility, the overarching trend remains positive.
+> - Understanding the drivers behind these fluctuations, including economic conditions, investor sentiment, and seasonal factors, offers valuable insights for decision-making.
 
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/2364f3eb-b040-48d6-99e1-0d261ba3381d" width="50%" height="50%">
+### **Cyclical Patterns**
 
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/3f93a324-9563-4c2b-ad6b-0d8142a479a5)
 
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/54ab4446-02e4-40b7-a43a-9aa10d78db2a" width="50%" height="50%">
+> - The holiday shopping season, spanning from November to December, contributes to a rise in gold demand as consumers seek gifts.
+> - The wedding season in India, reaching its peak from October to January, drives heightened demand as gold holds cultural significance in Indian weddings.
+> - Additionally, the Hindu festival of Diwali, occurring in October or November, stimulates increased gold purchasing as it is considered auspicious.
+> - Conversely, during the summer months between May and August, gold prices may experience a dip or slower activity, potentially due to reduced market participation or seasonal preferences
 
-## Performance Metrices
+## Advanced Modeling
 
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/6dccfb55-6b65-421a-9dba-78d34c881484" width="50%" height="50%">       
+- Traditional statistical models like ARIMA and SARIMA, found in the `statsmodels.tsa` package, are adept at capturing time series patterns and seasonality.
+- Holt-Winters, available in `statsmodels.tsa.holtwinters`, is employed for exponential smoothing, enabling the forecasting of trends and seasonal effects.
+- Prophet, part of the fbprophet (now prophet) library developed by Facebook, stands out as a robust time series analysis tool, offering accurate predictions by considering dynamic trends and outliers.
+- In addition, deep learning models, specifically LSTM-based, are implemented using `Sequential`, `LSTM`, and `Dense` from `tensorflow.keras.models` and `tensorflow.keras.layers`.
+- For data preparation and evaluation, `train_test_split` from `sklearn.model_selection` is utilized to split the data into training and test sets.
+- Furthermore, performance metrics such as mean absolute error (`mean_absolute_error`) and mean squared error (`mean_squared_error`) from `sklearn.metrics` are employed to assess the models' effectiveness.
 
+I intend to utilize all available data up to the conclusion of 2023 as our training dataset. Subsequently, we will employ the data from the year 2024 as our test set, aiming to forecast across the entirety of the dataset
 
-## **Best Model**
-**Gradient Boosting**     
+#### Different modeling techniques, including ARIMA, SARIMA, Holt-Winters, LSTM, and Prophet, were employed to forecast gold prices. While each model has its strengths, none of them perfectly capture the market dynamics, suggesting the need for continuous refinement and evaluation of forecasting methodologies. Based on actual and predicition graph analysis with performance score `prophet` is best model.
 
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/fe2ca4d4-56e5-4f50-b260-bb77cdc85629" width="27%" height="27%"> 
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/aeeb094d-e9e2-488a-9d14-bac1224a38d0)
+> - The real gold prices (black line) go up slowly over time, with some ups and downs now and then. The forecasted prices (orange line) mostly follow the trend of real prices but have some changes because of the ups and downs. Overall, the prophet model's guesses go along with the main trend of gold prices, catching both the rises and falls.
 
-**Feature Importance Graph for gradient boosting classifier**
+## Trading Strategy Development
 
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/303c818e-3ace-4c6b-a703-ff796135df85" width="50%" height="50%">
+### Moving Average Crossover Strategy 
+- This strategy likely involves using two moving averages (short-term and long-term) to identify optimal entry and exit points.
+- When the short-term moving average crosses above the long-term moving average, it generates a buy signal. Conversely, a cross below indicates a sell signal.
+- The consistent portfolio value indicates that this strategy aims for steady growth over time.
 
-Transaction amount and amount paid are the primary factors that significantly contribute to predicting fraud in the Gradient Boosting classifier. Another highly effective classifier is the Random Forest model. Additionally, incorporating features such as vehicle speed, dimensions, and the hour of the fraudulent transaction can also influence prediction accuracy.
+### Reverse Trading Strategy
+- This strategy might involve counter-trend trading, where positions are taken opposite to prevailing market trends.
+- Signals are generated based on volume analysis rather than price analysis. If the current volume exceeds the average volume, a sell signal (-1.0) is generated; otherwise, it's a hold (0.0).
+- It could be based on technical indicators, sentiment analysis, or other factors.
+- The sharp fluctuations in portfolio value indicate higher risk but also potential for substantial gains.
 
-## Development of a Prototype for Real-Time Fraud Detection
+### Risk-Return Tradeoff:
+- The Moving Average Crossover Strategy prioritizes stability, while the Reverse Trading Strategy seeks higher returns.
+- Traders must weigh risk against potential rewards when choosing between these approaches.
 
-The idea behind real-time fraud detection for FASTag is to continuously monitor transactions made through FASTag devices and promptly identify any fraudulent transactions as they happen.
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/fcb8b82d-af53-4502-ad8c-7ae92108c0f4)
+> - The blue line, symbolizing the Moving Average Crossover Strategy, maintains a consistently stable portfolio value throughout the backtesting period, showing minor fluctuations but overall steadiness.
+> - In contrast, the orange line representing the Reverse Trading Strategy displays significant volatility, with notable peaks and troughs, indicating a more unpredictable performance.
+> - Both strategies intersect at multiple points on the graph, reflecting moments of alignment or divergence. Analyzing these intersections can offer insights into market conditions and potential adjustments to the strategies.
 
-- Data Collection: Gather real-time FASTag transaction data including transaction amount, vehicle details, and timestamp.
-- Model Development: Create a machine learning model trained on historical FASTag data using algorithms like Random Forest, Logistic Regression, or Gradient Boosting.
-- Real-time Prediction: Implement a system to continuously monitor FASTag transactions, using the model to predict fraud in real-time.
-- Alerting Mechanism: Set up alerts to notify relevant parties when potential fraud is detected, via email, SMS, or monitoring dashboards.
-- Evaluation and Monitoring: Continuously assess system performance, monitoring key metrics like detection rate and false positives.
-- Integration: Integrate the fraud detection system seamlessly into existing FASTag infrastructure.
-- Compliance and Regulations: Ensure system compliance with relevant regulations and security standards.
+## Market Sentiment Analysis
 
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/cc66ecdf-e1c0-4ad1-bf8d-ae13db7217c6" width="80%" height="80%">
+### Gold Stock during the Pandemic Years
 
-This implementation utilizes the Flask framework. The Gradient Boosting model is exported to a .pkl file, which is then loaded into the Flask application. By considering the values of 'amount_paid' and 'transaction_amount' along with a specified threshold, the system determines whether a transaction is legitimate or fraudulent. In the event of fraud, pertinent information such as timestamp, transaction details, and vehicle speed is recorded. Integration with CCTV cameras enables capturing the license plate of the vehicle.
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/cd958845-71fc-43b9-8b90-7ba9b9e658c0)
+Analysis of gold stock during the pandemic years reveals a notable upward trend in prices until around mid-March. Following this period, prices experienced a decline attributed to pandemic-induced lockdowns. Subsequently, the graph displays a significant upward trend in gold prices in May, peaking in August 2020. The impact of varying lockdown measures implemented at different times in different countries contributed to fluctuations in prices until the end of 2021.
 
-Implementing real-time FASTag fraud detection enhances fraud prevention and minimizes financial losses.
+### Impact of Russia – Ukraine Conflict
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/c880a4fe-bca2-418f-a5f0-e4f6270e6a74)
+> - The analysis of gold price fluctuations underscores the impact of the Russia-Ukraine conflict, which commenced in late February 2022.
+> - Initially, gold prices sharply declined, reaching a low around $1900, coinciding with the conflict's onset in July 2022. By the end of September 2022, the prices hit their lowest point at $1600.
+> - However, as the conflict progressed, a gradual recovery ensued, leading to a notable peak around December 2022.
+> - The overall trend depicted an upward trajectory with intermittent fluctuations, culminating in a peak near January 2024, with gold prices nearly reaching $2050. This period, termed the "War Slowdown," reflects rising gold prices amid a reduction in conflict intensity or uncertainty.
 
+### Exploring the Relationship Between Trading Volume and Gold Prices
 
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/ffef2c31-9e03-486b-8e31-27df3b4e5ab5)
 
+The scatter plot shows how volume (the amount of trading activity) affects the closing price of gold. When there's low trading activity, the closing price tends to stay within a narrow range. But when trading activity picks up, the closing price can vary more widely. We see more data points when trading activity is low, but fewer when it's high. This suggests there might be a connection between trading volume and the closing price, but we need more analysis to be sure.
 
-## Explanatory Analysis
+## Statistical Analysis
 
-Based on the analysis provided, several insights into the factors contributing to fraudulent transactions can be derived:
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/baee0dd7-00ab-4f48-84b0-b7764ff417c9)
 
-1. Geographical Distribution: The data indicates that Karnataka (State Code: KA) has the highest count of fraud compared to other states included in the dataset. This suggests that fraudulent activities may be more prevalent in certain regions.
+### Shapiro-Wilk Test for Normality:
+- **Test statistic**: The Shapiro-Wilk test is used to assess whether a dataset follows a normal distribution. The test statistic value (**0.8725** in this case) is compared to critical values to determine the level of departure from normality. A value closer to 1 suggests the data is more likely to be normally distributed.
+- **p-value**: This is the probability of observing the data if the null hypothesis is true (i.e., if the data were drawn from a normal distribution). A small p-value (e.g., **2.987e-41**    ) indicates strong evidence against the null hypothesis, suggesting that the data significantly deviates from normality.
 
-2. Toll Booth Analysis: The majority of fraudulent transactions occur at the B-102 tollbooth, followed closely by the C-103 tollbooth. Conversely, tollbooths such as A-101 have fewer reported fraudulent transactions. This indicates that certain tollbooths may be more susceptible to fraudulent activities.
+### Pearson Correlation Coefficient:
+- This coefficient measures the strength and direction of a linear relationship between two variables.
+- For example, the **correlation coefficient between 'Close' and 'Volume' is approximately 0.0228**. A value close to 0 indicates **a weak linear relationship**, suggesting that changes in 'Volume' are not strongly associated with changes in 'Close’.
+- The **correlation coefficient between 'Close' and 'Open' is approximately 0.999**, indicating a **very strong positive linear relationship**. This suggests that 'Close' and 'Open' prices move almost perfectly in tandem, with 'Close' prices being almost identical to 'Open' prices, but with a slight difference due to factors such as market activity between opening and closing.
 
-3. Vehicle Types: Fraudulent activities are commonly associated with heavy vehicles such as SUVs, buses, trucks, and vans. Motorcycles, on the other hand, have not been linked to any recorded fraud cases across all toll booths. This suggests that the type of vehicle involved may influence the likelihood of fraudulent transactions.
+## Key Takeways
 
-4. Time of Day Analysis: The analysis reveals that fraudulent activities are most common between 10 AM and 4 PM, with over 40 fraudulent activities recorded during these hours. Conversely, fraudulent activities significantly decrease during the early morning hours between midnight and 5 AM. This indicates that the time of day may play a significant role in the occurrence of fraudulent transactions.
+- Gold prices have shown a consistent upward trend since 2019, despite fluctuations, indicating long-term investment potential. COVID-19 made prices go up and down quickly, but overall, it showed that gold is a safe thing to invest in when things get tough, so its prices went up.
+- Seasonal Fluctuations: Gold prices exhibit regular patterns influenced by various factors such as cultural events, economic conditions, and demand fluctuations. Understanding these seasonal variations is essential for interpreting short-term price movements.
+- Different modeling techniques, including ARIMA, SARIMA, Holt-Winters, LSTM, and Prophet, were employed to forecast gold prices. While each model has its strengths, none of them perfectly capture the market dynamics, suggesting the need for continuous refinement and evaluation of forecasting methodologies.
+- The Moving Average Crossover strategy prioritizes stability, while the Reverse Trading strategy aims for higher returns but entails greater volatility. Traders must consider the risk-return tradeoff when selecting a strategy.
+- External events, such as the COVID-19 pandemic and geopolitical conflicts like the Russia-Ukraine conflict, significantly impact gold prices. These events introduce volatility and uncertainty into the market, influencing investor behavior and driving fluctuations in prices.
+- Statistical tests, including the Shapiro-Wilk test for normality and Pearson correlation coefficient, provide additional insights into the distribution of data and the strength of relationships between variables, aiding in robust analysis and interpretation.
 
-5. Feature Importance Analysis: The feature importance graph suggests that several factors, including amount_paid, transaction_amount, vehicle_speed, vehicle_dimension, hours, and month, are most influential in predicting fraud. This indicates that these features may serve as important indicators or predictors of fraudulent transactions.
-
-## Challenges
-
-- Consistently high performance across all models suggests potential overfitting to the training data, where the models capture noise rather than true data patterns. 
-- Additionally, data imbalance, where one class like fraudulent transactions is significantly less represented than others, can distort model performance. 
-- Complex models, especially with limited data, are more susceptible to overfitting, further complicating the issue.
+## Recommendations
+Looking ahead, predicting gold prices will depend on understanding how the market changes and what factors affect it, like the economy, global tensions, and new technology. Improving predictive models with advanced techniques and data analysis can help make more accurate forecasts. It's important to stay alert to emerging risks and opportunities in the market, adapting strategies accordingly. Overall, flexibility and using the latest tools will be key to making informed decisions about gold investments in the future.
 
 ## Contact
 
