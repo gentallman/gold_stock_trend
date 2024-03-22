@@ -97,7 +97,7 @@ I intend to utilize all available data up to the conclusion of 2023 as our train
 ### Gold Stock during the Pandemic Years
 
 ![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/cd958845-71fc-43b9-8b90-7ba9b9e658c0)
-Analysis of gold stock during the pandemic years reveals a notable upward trend in prices until around mid-March. Following this period, prices experienced a decline attributed to pandemic-induced lockdowns. Subsequently, the graph displays a significant upward trend in gold prices in May, peaking in August 2020. The impact of varying lockdown measures implemented at different times in different countries contributed to fluctuations in prices until the end of 2021.
+> - Analysis of gold stock during the pandemic years reveals a notable upward trend in prices until around mid-March. Following this period, prices experienced a decline attributed to pandemic-induced lockdowns. Subsequently, the graph displays a significant upward trend in gold prices in May, peaking in August 2020. The impact of varying lockdown measures implemented at different times in different countries contributed to fluctuations in prices until the end of 2021.
 
 ### Impact of Russia – Ukraine Conflict
 ![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/c880a4fe-bca2-418f-a5f0-e4f6270e6a74)
@@ -110,7 +110,7 @@ Analysis of gold stock during the pandemic years reveals a notable upward trend 
 
 ![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/ffef2c31-9e03-486b-8e31-27df3b4e5ab5)
 
-The scatter plot shows how volume (the amount of trading activity) affects the closing price of gold. When there's low trading activity, the closing price tends to stay within a narrow range. But when trading activity picks up, the closing price can vary more widely. We see more data points when trading activity is low, but fewer when it's high. This suggests there might be a connection between trading volume and the closing price, but we need more analysis to be sure.
+> - The scatter plot shows how volume (the amount of trading activity) affects the closing price of gold. When there's low trading activity, the closing price tends to stay within a narrow range. But when trading activity picks up, the closing price can vary more widely. We see more data points when trading activity is low, but fewer when it's high. This suggests there might be a connection between trading volume and the closing price, but we need more analysis to be sure.
 
 ## Statistical Analysis
 
