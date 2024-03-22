@@ -14,7 +14,7 @@ Data - https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-dates
 FASTag is an electronic toll collection system in India, operated by the National Highway Authority of India (NHAI). FASTags stickers are typically placed on the inside of the vehicle's windshield, usually on the top, near the rearview mirror. It employs radio frequency identification (RFID) technology to enable automatic deduction of toll charges from a prepaid or linked account as a vehicle passes through a toll plaza.
 
 <p align="center">
-<img src="https://github.com/gentallman/gold_stock_trend/raw/main/Fastag_sickers.png" width="60%" height="60%">
+<img src="https://github.com/gentallman/gold_stock_trend/blob/main/Fastag_stickers.png" width="60%" height="60%">
 </p>
 
 Regarding fraud associated with FASTag, there have been instances where fraudsters have attempted to exploit vulnerabilities in the system. Some common frauds include:
