@@ -3,6 +3,8 @@
   <img src="https://github.com/akhilchibber/Fastag-Fraud-Detection/blob/main/Fastag.jpeg?raw=true" alt="earthml Logo">
 </p>
 
+**Data** - ![Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
+
 ## What is FASTag ?
 
 FASTag is an electronic toll collection system in India, operated by the National Highway Authority of India (NHAI). FASTags stickers are typically placed on the inside of the vehicle's windshield, usually on the top, near the rearview mirror. It employs radio frequency identification (RFID) technology to enable automatic deduction of toll charges from a prepaid or linked account as a vehicle passes through a toll plaza.
@@ -23,19 +25,41 @@ To mitigate these risks, it's essential to:
 - Regularly monitor transactions for any discrepancies.
 - Exercise caution and refrain from clicking on unsolicited links or messages.
 - Promptly report any suspicious activity to the relevant provider or authorities.
+    
+**Data** - ![Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
+
+## Project Objectives
+1. Data Exploration
+2. Exploratory Data Analysis
+3. Feature Engineering
+4. Model Development
+5. Real-time Fraud Detection
+6. Explanatory Analysis
+
+## Before Feature Engineering
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/97328acb-45d4-43a9-8702-80b58d09b0cf)
+
+## After Feature Engineering
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/ad23362a-8c35-410c-b312-d07915b4bff8)
+
+## Model Development
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/21497614-8256-470b-8154-953cd5a2c474)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/2364f3eb-b040-48d6-99e1-0d261ba3381d)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/54ab4446-02e4-40b7-a43a-9aa10d78db2a)
+
+**Best Model**
+Gradient Boosting
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/6dccfb55-6b65-421a-9dba-78d34c881484)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/fe2ca4d4-56e5-4f50-b260-bb77cdc85629)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/303c818e-3ace-4c6b-a703-ff796135df85)
+Transaction amount and amount paid are the primary factors that significantly contribute to predicting fraud in the Gradient Boosting classifier. Another highly effective classifier is the Random Forest model. Additionally, incorporating features such as vehicle speed, dimensions, and the hour of the fraudulent transaction can also influence prediction accuracy.![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/e30b6da1-af4b-49fd-8334-3fac04bbfe17)
+
+## Development of a Prototype for Real-Time Fraud Detection
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/cc66ecdf-e1c0-4ad1-bf8d-ae13db7217c6)
+This implementation utilizes the Flask framework. The Gradient Boosting model is exported to a .pkl file, which is then loaded into the Flask application. By considering the values of 'amount_paid' and 'transaction_amount' along with a specified threshold, the system determines whether a transaction is legitimate or fraudulent. In the event of fraud, pertinent information such as timestamp, transaction details, and vehicle speed is recorded. Integration with CCTV cameras enables capturing the license plate of the vehicle.
 
 
-## Dataset
-[Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
 
-## Getting Started
-To get started with this project:
-
-1. Clone this repository to your local machine.
-2. Ensure you have Jupyter Notebook installed and running.
-3. Install the required dependencies.
-4. Download the "Fastag Fraud Detection Dataset" and place it in the designated directory.
-5. Open and run the Jupyter Notebook "Fastag-Fraud-Detection.ipynb" to train and evaluate the model.
 
 ## Contributing
 We welcome contributions to enhance the functionality and efficiency of this script. Feel free to fork, modify, and make pull requests to this repository. To contribute:
