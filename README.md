@@ -37,11 +37,11 @@ To mitigate these risks, it's essential to:
 6. Explanatory Analysis
 
 ## Before Feature Engineering
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/c18190ab-b9aa-4bf5-b7a8-3bd0d974c31d | width="100" )
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/c18190ab-b9aa-4bf5-b7a8-3bd0d974c31d)
 
 
 ## After Feature Engineering
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/4ddfea97-406e-470e-a905-0720fd419c17 =250x250)
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/4ddfea97-406e-470e-a905-0720fd419c17)
 
 ## Model Development
 ![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/21497614-8256-470b-8154-953cd5a2c474)
