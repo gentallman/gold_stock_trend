@@ -1,24 +1,33 @@
 
 
 
-# FASTag Fraud Detection
+# Gold Stock Trend Analysis and Predicition
 <p align="center">
 <img src="https://github.com/gentallman/gold_stock_trend/blob/main/asset/gold_stock_trend.png" width="60%" height="60%">
 </p>
 
-<p align="center">
-Data - https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data
-</p>
+## Problem statement
 
+The volatility and complexity of the gold market present challenges for investors, analysts, and researchers seeking to understand its behavior and make informed decisions. Leveraging a comprehensive dataset of daily gold prices spanning from January 19, 2014, to January 22, 2024, sourced from Nasdaq, this project aims to address key questions and objectives related to historical trends, predictive modeling, trading strategy development, market sentiment analysis, and statistical insights.
 
+## Project Objectives 
 
-## What is FASTag ?
+- Time Series Analysis
+- Advanced Modeling
+- Trading Strategy Development
+- Market Sentiment Analysis
+- Statistical Analysis
 
-FASTag is an electronic toll collection system in India, operated by the National Highway Authority of India (NHAI). FASTags stickers are typically placed on the inside of the vehicle's windshield, usually on the top, near the rearview mirror. It employs radio frequency identification (RFID) technology to enable automatic deduction of toll charges from a prepaid or linked account as a vehicle passes through a toll plaza.
+## About data
 
-<p align="center">
-<img src="https://github.com/gentallman/FASTag_fraud_detection/blob/main/Fastag_stickers.png" width="70%" height="70%">
-</p>
+Date: Unique identifier for each trading day.
+Close: Closing price of gold on the respective date.
+Volume: Gold trading volume on the corresponding date.
+Open: Opening price of gold on the respective date.
+High: The highest recorded price of gold during the trading day.
+Low: The lowest price recorded for gold in the trading day.
+
+[Data Source - Nasdaq](https://www.nasdaq.com/market-activity/commodities/gc:cmx_
 
 Regarding fraud associated with FASTag, there have been instances where fraudsters have attempted to exploit vulnerabilities in the system. Some common frauds include:
 
