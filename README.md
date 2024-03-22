@@ -37,23 +37,25 @@ To mitigate these risks, it's essential to:
 6. Explanatory Analysis
 
 ## Before Feature Engineering
-<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/c18190ab-b9aa-4bf5-b7a8-3bd0d974c31d" width="700" height="500">
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/c18190ab-b9aa-4bf5-b7a8-3bd0d974c31d" width="50%" height="50%">
 
 
 ## After Feature Engineering
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/4ddfea97-406e-470e-a905-0720fd419c17)
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/4ddfea97-406e-470e-a905-0720fd419c17" width="50%" height="50%">
+
 
 ## Model Development
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/21497614-8256-470b-8154-953cd5a2c474)
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/2364f3eb-b040-48d6-99e1-0d261ba3381d)
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/54ab4446-02e4-40b7-a43a-9aa10d78db2a)
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/21497614-8256-470b-8154-953cd5a2c474" width="50%" height="50%">
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/2364f3eb-b040-48d6-99e1-0d261ba3381d" width="50%" height="50%">
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/54ab4446-02e4-40b7-a43a-9aa10d78db2a" width="50%" height="50%">
 
 **Best Model**
 Gradient Boosting
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/6dccfb55-6b65-421a-9dba-78d34c881484)
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/fe2ca4d4-56e5-4f50-b260-bb77cdc85629)
-![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/303c818e-3ace-4c6b-a703-ff796135df85)
-Transaction amount and amount paid are the primary factors that significantly contribute to predicting fraud in the Gradient Boosting classifier. Another highly effective classifier is the Random Forest model. Additionally, incorporating features such as vehicle speed, dimensions, and the hour of the fraudulent transaction can also influence prediction accuracy.![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/e30b6da1-af4b-49fd-8334-3fac04bbfe17)
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/6dccfb55-6b65-421a-9dba-78d34c881484" width="50%" height="50%">
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/fe2ca4d4-56e5-4f50-b260-bb77cdc85629" width="50%" height="50%">
+<img src="https://github.com/gentallman/gold_stock_trend/assets/78334851/303c818e-3ace-4c6b-a703-ff796135df85" width="50%" height="50%">
+
+Transaction amount and amount paid are the primary factors that significantly contribute to predicting fraud in the Gradient Boosting classifier. Another highly effective classifier is the Random Forest model. Additionally, incorporating features such as vehicle speed, dimensions, and the hour of the fraudulent transaction can also influence prediction accuracy.
 
 ## Development of a Prototype for Real-Time Fraud Detection
 ![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/cc66ecdf-e1c0-4ad1-bf8d-ae13db7217c6)
