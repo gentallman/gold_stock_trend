@@ -1,7 +1,26 @@
-# Deep Learning based Fastag Fraud Detection
+# FASTag Fraud Detection
 <p align="center">
   <img src="https://github.com/akhilchibber/Fastag-Fraud-Detection/blob/main/Fastag.jpeg?raw=true" alt="earthml Logo">
 </p>
+
+## What is FASTag ?
+
+FASTag is an electronic toll collection system in India, operated by the National Highway Authority of India (NHAI).  FASTags stickers are typically placed on the inside of the vehicle's windshield, usually on the top, near the rearview mirror. 
+
+It employs radio frequency identification (RFID) technology to enable automatic deduction of toll charges from a prepaid or linked account as a vehicle passes through a toll plaza.
+
+FASTag fraud includes cloning legitimate tags, phishing for account details, tampering with stickers, and identity theft for unauthorized access. 
+
+To reduce risks:
+
+- Buy FASTags from authorized sources.
+- Secure account details.
+- Monitor transactions.
+- Avoid unsolicited links/messages.
+- Report suspicious activity to the provider/authorities.
+![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/b85e1fb4-4b45-44ca-b016-3e6977cb7d0e)
+
+
 
 ## Dataset
 The dataset used in this project can be found on Kaggle: [Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
