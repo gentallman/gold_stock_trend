@@ -26,7 +26,7 @@ To mitigate these risks, it's essential to:
 
 
 ## Dataset
-![Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
+[Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
 
 ## Getting Started
 To get started with this project:
