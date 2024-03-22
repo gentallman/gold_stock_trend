@@ -9,21 +9,24 @@ FASTag is an electronic toll collection system in India, operated by the Nationa
 
 ![image](https://github.com/gentallman/gold_stock_trend/assets/78334851/a41469e8-2a50-4b49-b686-e02236598a6d)
 
-FASTag fraud includes cloning legitimate tags, phishing for account details, tampering with stickers, and identity theft for unauthorized access. 
+Regarding fraud associated with FASTag, there have been instances where fraudsters have attempted to exploit vulnerabilities in the system. Some common frauds include:
 
-To reduce risks:
+- **Cloning**: Fraudsters may attempt to clone legitimate FASTags or their unique identification numbers to use them for unauthorized toll payments.
+- **Phishing**: Scammers may use phishing techniques, such as fake emails or messages posing as FASTag service providers, to trick users into revealing their FASTag account details, allowing the fraudsters to access and misuse those accounts.
+- **Tampering**: Criminals may try to tamper with or alter FASTag stickers or devices to manipulate toll charges or steal sensitive information.
+- **Identity Theft**: Identity theft can occur if someone obtains another person's personal information and uses it to apply for a FASTag or gain unauthorized access to an existing account.
 
-- Buy FASTags from authorized sources.
-- Secure account details.
-- Monitor transactions.
-- Avoid unsolicited links/messages.
-- Report suspicious activity to the provider/authorities.
+To mitigate these risks, it's essential to:
 
-
+- Purchase FASTags exclusively from authorized sources.
+- Safeguard account details to prevent unauthorized access.
+- Regularly monitor transactions for any discrepancies.
+- Exercise caution and refrain from clicking on unsolicited links or messages.
+- Promptly report any suspicious activity to the relevant provider or authorities.
 
 
 ## Dataset
-The dataset used in this project can be found on Kaggle: [Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
+![Fastag Fraud Detection Dataset](https://www.kaggle.com/datasets/thegoanpanda/fastag-fraud-detection-datesets-fictitious/data). 
 
 ## Getting Started
 To get started with this project:
