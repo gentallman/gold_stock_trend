@@ -1,6 +1,6 @@
 
 
-<p align="center"> <h1>Gold Stock Trend Analysis and Predicition</h1>  </p>
+<p align="center"> <h1>Gold Stock Trend Analysis and Prediction</h1>  </p>
  
 <p align="center">
 <img src="https://github.com/gentallman/gold_stock_trend/blob/main/asset/gold_stock_trend.png" width="60%" height="60%">
