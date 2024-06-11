@@ -1,6 +1,5 @@
 
-
-<p align="center"> <h1>Gold Stock Trend Analysis and Prediction</h1>  </p>
+<h1 align="center"> Gold Stock Trend Analysis and Prediction </h1>  
  
 <p align="center">
 <img src="https://github.com/gentallman/gold_stock_trend/blob/main/asset/gold_stock_trend.png" width="60%" height="60%">
@@ -140,7 +139,8 @@ Looking ahead, predicting gold prices will depend on understanding how the marke
 ## Contact
 
 Author: Smit Rana
-
-
 LinkedIn: [linkedin.com/in/smit98rana/](https://www.linkedin.com/in/smit98rana/)https://www.linkedin.com/in/smit98rana/
 
+<p align="center">
+        <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Github Stats" />
+</p>
