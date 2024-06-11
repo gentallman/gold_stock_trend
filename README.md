@@ -139,6 +139,7 @@ Looking ahead, predicting gold prices will depend on understanding how the marke
 ## Contact
 
 Author: Smit Rana
+
 LinkedIn: [linkedin.com/in/smit98rana/](https://www.linkedin.com/in/smit98rana/)https://www.linkedin.com/in/smit98rana/
 
 <p align="center">
