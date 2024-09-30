@@ -2,8 +2,10 @@
 <h1 align="center"> Gold Stock Trend Analysis and Prediction </h1>  
  
 <p align="center">
-<img src="https://github.com/gentallman/gold_stock_trend/blob/main/asset/gold_stock_trend.png" width="60%" height="60%">
+<img src="https://github.com/user-attachments/assets/7fb7521e-43e8-4d69-89f6-6678fd7a9d66" width="60%" height="30%">
 </p>
+
+
 
 ## Problem statement
 
